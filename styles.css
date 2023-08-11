@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    color: purple;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.description {
+    text-align: center;
+    margin: 2rem;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-image {
+    width: 20%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer {
+    text-align: center;
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+.small-text {
+    font-size: 12px;
+}
